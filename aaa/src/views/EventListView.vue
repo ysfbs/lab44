@@ -1,6 +1,7 @@
 <script setup lang="ts">  
 import EventCard from '@/components/EventCard.vue'  
-import EventService from '@/services/EventService';
+import axios from 'axios'
+
 import type { Event } from '@/types';
 import { ref, onMounted } from 'vue'  
   
@@ -9,7 +10,8 @@ import { ref, onMounted } from 'vue'
 const events = ref<Event[]>([])  
   
 onMounted(() => {  
-  EventService.getEvents()  
+  axios
+      .get('[your mock server url]')
     .then((response: { data: Event[] }) => {   
       events.value = response.data  
     })  
@@ -17,6 +19,7 @@ onMounted(() => {
       console.error('There was an error!', error)  
     })  
 })  
+
 </script>  
   
 <template>  
