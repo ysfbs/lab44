@@ -32,17 +32,18 @@
       "time": "11:00",
       "petsAllowed": false,
       "organizer": "Carey Wales"
-    }
-    {  
-      "id": 1637918，
-      "category": "community",  
-      "title": "Park Planting",   
-      "description": "Join us to plant trees and shrubs in the local park.", 
-      "location": "Central Park", 
-      "date": "August 15, 2023",  
-      "time": "09:00",           
-      "petsAllowed": true,     
-      "organizer": "Green Earth Team" 
-    }  
+    }，
+    { 
+      "id": 8419988,
+      "category": "sustainability",
+      "title": "Beach Cleanup",
+      "description": "Help pick up trash along the shore.",
+      "location": "Playa Del Carmen",
+      "date": "July 22, 2022",
+      "time": "11:00",
+      "petsAllowed": false,
+      "organizer": "Carey Wales"
+
+        }，  
    ]
 }
